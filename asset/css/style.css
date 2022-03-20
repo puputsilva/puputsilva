@@ -1,0 +1,30 @@
+body {
+  overflow-x: hidden !important;
+  background-color: #1F1E22;
+}
+
+.navbar {
+	background-color: #1F1E22;
+}
+      .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 5px solid #FFFFFF;
+        width: 80%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -10px;  
+        color: white !important;  
+    }
+
+.navbar-brand, .navbar-toggler, .nav-link{
+    color: white !important;
+}
+.section {
+    min-height: 500px;
+}
+
+.card-img-top {
+    max-width: 400px;
+}
+
